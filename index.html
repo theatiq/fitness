@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness</title>
+    <link rel="stylesheet" href="styles/fitness.css" />
+    <script
+      src="https://kit.fontawesome.com/a1e69acb00.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header Section Starts -->
+    <div class="entire-banner">
+      <nav class="nav-bar">
+        <h3>Fitness</h3>
+        <div class="nav-options">
+          <button class="home-button">Home</button>
+          <p>Services</p>
+          <p>Contact</p>
+          <p>About</p>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </nav>
+      <div class="title-and-image">
+        <div class="hero-title">
+          <div><h1>Get body in <br /><span>shape</span> & stay <br/>healthy</h1>
+            <p>A huge selection of health and fitness content, healthy recipes
+              <br/>and transformation stories to help you get fit and stay fit!
+            </p>
+          </div>
+          <div class="hero-button">
+            <button class="join-now">Join Club Now!</button>
+            <button>Download App</button>
+            <button onclick="get_coupon()" class="discount">
+              Click to get disc. Coupon
+            </button>
+          </div>
+          <script>
+            function get_coupon() {
+              alert("Your Coupon Code is 'SUMMER15'.");
+            }
+          </script>
+        </div>
+      <div class="banner-image">
+        <div class="hero-cycle">
+          <div class="circle"></div>
+          <div>
+            <h3>350+</h3>
+            <p>Video Tutorial</p>
+          </div>
+        </div>
+        <div class="hero-free">
+          <h3>500+</h3>
+          <p>Free Workout Videos</p>
+        </div>
+        <img src="images/hero-image.png" alt="" />
+      </div>
+    </div>
+
+    </div>
+
+    <!-- Header Section Ended -->
+    <!-- Habit Section Start -->
+    <main>
+      <section class="habit-section">
+        <div class="habit-title-desc">
+          <h3>Change Your Habits</h3>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="habit-images">
+          <div class="habit-change-desc">
+            <div class="habit-image-all">
+              <img src="images/habit-image-01.png" alt="" />
+            </div>
+            <h4>Movement</h4>
+            <p>
+              Push-up is the mother <br />
+              of Exercise
+            </p>
+          </div>
+          <div class="habit-change-desc">
+            <div class="habit-image-all">
+              <img src="images/habit-image-02.png" alt="" />
+            </div>
+            <h4>Time</h4>
+            <p>
+              One Should maintain Time to <br />
+              get benefit from Exercise
+            </p>
+          </div>
+          <div class="habit-change-desc">
+            <div class="habit-image-all">
+              <img src="images/habit-image-03.png" alt="" />
+            </div>
+            <h4>Practice</h4>
+            <p>
+              One Should Practice <br />
+              perfectly
+            </p>
+          </div>
+          <div class="habit-change-desc">
+            <div class="habit-image-all">
+              <img src="images/habit-image-04.png" alt="" />
+            </div>
+            <h4>Weight Loss</h4>
+            <p>
+              Weight Loss is one of the Key-Desire <br />
+              who Workout regularly
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Habit Section Ended -->
+
+      <!-- Running Section Starts -->
+      <section class="running">
+        <div class="running-section">
+          <div class="running-section-description">
+            <div>
+              <h3>
+                Run an Extra <br />
+                Mile Easily
+              </h3>
+              <p>Here you will hack how to run an extra mile easily.</p>
+            </div>
+            <button>Join Now</button>
+          </div>
+          <div class="running-image">
+            <img src="images/run-image.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Running Section Ended -->
+      <!-- Training Section starts -->
+      <section class="training">
+        <div class="training-description">
+          <h3>Training and Exercises</h3>
+          <p>Training and Exercises are essential for stability.</p>
+        </div>
+        <div class="row-1">
+          <img src="images/exercise1.jpg" alt="" />
+          <img src="images/exercise2.png" alt="" />
+          <img src="images/exercise3.png" alt="" />
+        </div>
+        <div class="row-2">
+          <img src="images/exercise4.png" alt="" />
+          <img src="images/exercise5.jpg" alt="" />
+          <img src="images/exercise6.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- Training Section ended -->
+      <!-- BMI Calculator Starts -->
+      <div class="bmi-calculator">
+        <h1>BMI Calculator</h1>
+        <p>You can measure your strength using BMI Calculator</p>
+      </div>
+      <section class="bmi">
+        <div class="chart-calculation">
+          <div class="charts">
+            <div>
+              <h1>BMI Calculator Chart</h1>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <td>BMI</td>
+                  <td>Weight Status</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 and above</td>
+                  <td>Obese</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <div>
+              <h1>Calculate your BMI</h1>
+              <p>You can easily calculate your BMI</p>
+            </div>
+            <div class="chart-options">
+              <div class="height-weight">
+                <input type="text" name="" id="" placeholder="Height/cm" />
+                <input type="text" name="" id="" placeholder="Weight/kg" />
+              </div>
+
+              <div>
+                <input type="text" name="" id="" placeholder="Age" />
+                <select name="" id="" class="gender">
+                  <option value="">Sex</option>
+                </select>
+              </div>
+
+              <div>
+                <select name="" id="" class="activity">
+                  <option value="">Select an activity factor</option>
+                </select>
+              </div>
+
+              <button type="button" class="calculate">Calculate</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BMI Calculator Ended -->
+      <!-- Team Section Starts -->
+      <section class="team">
+        <div class="team-description">
+          <h1>Meet Our Team</h1>
+          <p>We have some exclusive skilled trainers</p>
+        </div>
+        <div class="trainers">
+          <div class="trainer-card trainer-card-disable">
+            <img src="images/trainer1.png" alt="" />
+            <div class="trainer-description">
+              <h3>Jerome Bell</h3>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card trainer-2">
+            <img src="images/trainer2.png" alt="" />
+            <div class="trainer-description">
+              <h3>Cameron Williamson</h3>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card trainer-3">
+            <img src="images/trainer3.png" alt="" />
+            <div class="trainer-description">
+              <h3>Darell Steward</h3>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card trainer-card-disable">
+            <img src="images/trainer4.png" alt="" />
+            <div class="trainer-description">
+              <h3>Dianee Russel</h3>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card trainer-5">
+            <img src="images/trainer5.png" alt="" />
+            <div class="trainer-description">
+              <h3>Cody Fisher</h3>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card trainer-6">
+            <img src="images/trainer6.png" alt="" />
+            <div class="trainer-description">
+              <h3>Theresa Web</h3>
+              <p>Trainer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team Section Ended -->
+    </main>
+    <footer>
+      <section class="footer-section">
+        <div>
+          <h1>Fitness</h1>
+          <p>We promise to render excellent service</p>
+        </div>
+        <div class="footer-options">
+          <h3>Get Started</h3>
+          <p>Services</p>
+          <p>Contact Us</p>
+          <p>Affiliate Program</p>
+          <p>About Us</p>
+        </div>
+        <div class="footer-options">
+          <h3>Get Set Go</h3>
+          <p>Fitness</p>
+          <p>Platform</p>
+          <p>Workout Library</p>
+          <p>App Design</p>
+        </div>
+      </section>
+      <hr />
+      <p class="copy">All rights reserved &copy;Fitness 2024</p>
+    </footer>
+  </body>
+</html>
