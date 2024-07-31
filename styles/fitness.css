@@ -71,6 +71,7 @@ body {
   gap: 25px;
   border: 1px solid rgb(65, 66, 66);
   border-radius: 25px;
+  margin-top: 15px;
   /* padding: 10px 15px; */
   cursor: pointer;
   height: 30px;
@@ -468,7 +469,9 @@ footer hr {
   } */
 /* Temporary Styling ends */
 
-
+#search {
+  display: none;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -476,6 +479,12 @@ footer hr {
   .trainer-card-disable,
   .training   {
     display: none;
+  }
+  
+  #search {
+    display: block;
+    font-size: 40px;
+    transform: translateY(12px);
   }
 
   /* .hero-cycle,
