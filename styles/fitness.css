@@ -469,7 +469,7 @@ footer hr {
   } */
 /* Temporary Styling ends */
 
-#search {
+#search, #play {
   display: none;
 }
 
@@ -477,7 +477,7 @@ footer hr {
 @media screen and (max-width: 576px) {
   .nav-options,
   .trainer-card-disable,
-  .training   {
+  .training {
     display: none;
   }
   
@@ -485,6 +485,12 @@ footer hr {
     display: block;
     font-size: 40px;
     transform: translateY(12px);
+  }
+
+  #play {
+    display: block;
+    transform: translateX(-16px);
+    font-size: 10px;
   }
 
   /* .hero-cycle,
