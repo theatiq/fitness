@@ -6,6 +6,15 @@
   padding: 0;
 }
 
+/* * {
+  border: 1px solid red;
+}
+
+body {
+ border: 2px dashed green;
+} */
+
+
 body {
   width: 100%;
 }
