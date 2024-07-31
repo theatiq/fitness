@@ -489,7 +489,7 @@ footer hr {
 
   #play {
     display: block;
-    transform: translateX(-16px);
+    transform: translateX(-15px);
     font-size: 10px;
   }
 
@@ -580,17 +580,17 @@ footer hr {
   .hero-cycle {
     top: 50%;
     left: 1%;
-    width: 8rem;
+    width: 7rem;
     height: 3.5rem;
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
   .hero-free {
     top: 10%;
     left: 55%;
-    width: 8rem;
+    width: 6rem;
     height: 3.5rem;
-    font-size: .8rem;
+    font-size: .6rem;
   }
   .circle {
     height: 1.50rem;
