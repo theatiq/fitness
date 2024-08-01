@@ -109,8 +109,8 @@ body {
        url('webfont.woff') format('woff');
 } */
 @font-face {
-  font-family: "MyWebFont";
-  src: url("../fonts/Miama.ttf");
+  font-family: "Miama";
+  src: url("../fonts/Miama.otf");
 }
 span {
   font-family: "Miama"; /* or 'Miama Regular' */
