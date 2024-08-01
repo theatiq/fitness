@@ -111,6 +111,11 @@ body {
 @font-face {
   font-family: "Miama";
   src: url("../fonts/Miama.otf");
+  font-size: 78px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 93.6px;
+  text-align: left;
 }
 span {
   font-family: "Miama"; /* or 'Miama Regular' */
@@ -616,7 +621,7 @@ footer hr {
     line-height: 43.2px;
     text-align: left;
   }
-  @font-face {
+  /* @font-face {
     font-family: "Miama Regular";
     font-style: normal;
     font-weight: normal;
@@ -628,7 +633,17 @@ footer hr {
     font-style: normal;
     font-weight: normal;
     src: local("Miama"), url("fonts/Miama.woff") format("woff");
+  } */
+  @font-face {
+    font-family: "Miama";
+    src: url("../fonts/Miama.otf");
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 43.2px;
+    text-align: left;
   }
+
   span {
     font-family: "Miama";
     font-size: 36px;
