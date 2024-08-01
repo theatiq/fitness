@@ -91,16 +91,23 @@ body {
   font-family: "Miama Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Miama Regular"), url("fonts/Miama-Regular.woff") format("woff");
+  src: local("Miama Regular"), url("../fonts/Miama-Regular.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Miama";
   font-style: normal;
   font-weight: normal;
-  src: local("Miama"), url("fonts/Miama.woff") format("woff");
+  src: local("Miama"), url("../fonts/Miama.ttf") format("ttf");
 }
 
+/* @font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot') format('eot'),
+       url('webfont.ttf') format('truetype'),
+       url('webfont.woff2') format('woff2'),
+       url('webfont.woff') format('woff');
+} */
 span {
   font-family: "Miama"; /* or 'Miama Regular' */
   font-size: 78px;
@@ -611,7 +618,7 @@ footer hr {
     font-weight: normal;
     src: local("Miama Regular"), url("fonts/Miama-Regular.woff") format("woff");
   }
-  
+
   @font-face {
     font-family: "Miama";
     font-style: normal;
