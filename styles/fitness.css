@@ -605,6 +605,19 @@ footer hr {
     line-height: 43.2px;
     text-align: left;
   }
+  @font-face {
+    font-family: "Miama Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Miama Regular"), url("fonts/Miama-Regular.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Miama";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Miama"), url("fonts/Miama.woff") format("woff");
+  }
   span {
     font-family: "Miama";
     font-size: 36px;
