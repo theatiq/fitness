@@ -136,8 +136,14 @@ span {
 
 .hero-title h1 {
   transform: translate(0, -70px);
-  font-size: 4rem;
-  font-weight: bolder;
+  /* font-size: 4rem; */
+  /* font-weight: bolder; */
+  font-family: Inter;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 93.6px;
+  text-align: left;
+
 }
 
 .hero-button button {
@@ -508,11 +514,14 @@ footer hr {
   display: none;
 }
 
+#br {
+  display: block;
+}
 
 @media screen and (max-width: 576px) {
   .nav-options,
   .trainer-card-disable,
-  .training {
+  .training, #br {
     display: none;
   }
   
@@ -602,8 +611,24 @@ footer hr {
 
   .hero-title h1 {
     transform: translate(0, -20px);
-    font-size: 2rem;
-    font-weight: bolder;
+    /* font-size: 2rem;
+    font-weight: bolder; */
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.2px;
+    text-align: left;
+
+
+  }
+  span {
+    font-family: Miama;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 43.2px;
+    text-align: left;
+
   }
   
   .hero-button button {
@@ -671,5 +696,6 @@ footer hr {
     text-align: left;
     margin-left: 20px;
   }
+  
   
 }
