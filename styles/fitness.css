@@ -99,16 +99,16 @@ body {
   font-family: 'Miama Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Miama Regular'), url('Miama-Regular.woff') format('woff');
-  }
-  
+  src: local('Miama Regular'), url('fonts/Miama-Regular.woff') format('woff');
+}
 
-  @font-face {
+@font-face {
   font-family: 'Miama';
   font-style: normal;
   font-weight: normal;
-  src: local('Miama'), url('Miama.woff') format('woff');
-  }
+  src: local('Miama'), url('fonts/Miama.woff') format('woff');
+}
+
 
 
 
